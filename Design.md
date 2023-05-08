@@ -173,7 +173,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
    
 
-3.  **User.StoreFile**- Given a `filename` in the personal namespace of the caller, this function persistently stores the given `content` for future retrieval using the same `filename`
+3. **User.StoreFile**- Given a `filename` in the personal namespace of the caller, this function persistently stores the given `content` for future retrieval using the same `filename`
 
    ```
    func (userdata *User) StoreFile(filename string, content []byte) (err error)
@@ -263,7 +263,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
    
 
-8.  **User.RevokeAccess** - Given a `filename` in the personal namespace of the caller, this function revokes access to the corresponding file from `recipientUsername` and any other users with whom `recipientUsername`has shared the file.
+8. **User.RevokeAccess** - Given a `filename` in the personal namespace of the caller, this function revokes access to the corresponding file from `recipientUsername` and any other users with whom `recipientUsername`has shared the file.
 
    ```
    func (userdata *User) RevokeAccess(filename string, recipientUsername string) error
