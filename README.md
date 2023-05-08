@@ -2,7 +2,9 @@ It is the project 2 (secure file sharing system) of CS 161 Computer Security 202
 
 To run the test case, go to the client_test directory of the checked out repository, run `go test`.
 
-I'm currently document my project design, and will upload it in a few days.
+
+
+For my project design, please check Design.md
 
 For project requirement, please refer to https://fa22.cs161.org/proj2/.
 
