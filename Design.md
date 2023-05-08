@@ -279,7 +279,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
    5.  Generate a pair of symKey & hMACKey & UUID for `fileMeta` -> modify `userFileMapEntry` key part
 
-      Generate a pair of symKey & hMACKey & UUID for fileContent -> modify `fileMeta` key part
+       Generate a pair of symKey & hMACKey & UUID for fileContent -> modify `fileMeta` key part
 
    6. For revoked user, delete its `fileMeta` node, and delete its `sharingRecords` entry 
 
