@@ -32,13 +32,13 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
    To conclude, in order to read files or store files, the process is 
 
-    	1. read `UserFileMap` 
-    	2. read/create corresponding `FileMeta` 
-    	3. read/create corresponding fileContent
+   1. read `UserFileMap` 
+   2. read/create corresponding `FileMeta` 
+   3. read/create corresponding fileContent
 
-   
 
-3. **Sharing and Revocation**
+
+1. **Sharing and Revocation**
 
    1. Sharing
 
