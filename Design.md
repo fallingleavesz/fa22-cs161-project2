@@ -73,7 +73,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
 #### Customized Data Structure
 
-1.  `User` 
+1. `User` 
 
    ```
    type User struct {
@@ -89,7 +89,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
    
    
    
-2.   `UserFileMapEntry` & `UserFileMap`
+2. `UserFileMapEntry` & `UserFileMap`
 
    - `UserFileMapEntry` stores necessary info to find `FileMeta`, decrypt it, and check integrity.
    - `UserFileMap`: is a map, each entry is `{"filename (string)": UserFileMapEntry}`
@@ -117,7 +117,7 @@ UCB CS161 Project 2 Design - Cryptographic Secure File Sharing System
 
    
 
-3.   `FileMeta` - store necessary data to find file, decrypt it, and check integrity.
+3. `FileMeta` - store necessary data to find file, decrypt it, and check integrity.
 
    ```
    type FileMeta struct {
