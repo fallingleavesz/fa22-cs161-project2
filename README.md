@@ -4,7 +4,7 @@ To run the test case, go to the client_test directory of the checked out reposit
 
 
 
-For my project design, please check Design.md
+For my project design, please check [Design.md](https://github.com/fallingleavesz/fa22-cs161-project2/blob/main/Design.md)
 
 For project requirement, please refer to https://fa22.cs161.org/proj2/.
 
